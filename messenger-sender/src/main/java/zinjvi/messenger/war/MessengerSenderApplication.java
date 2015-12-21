@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
-@Import({CxfConfiguration.class})
+@Import({JmsConfig.class})
 public class MessengerSenderApplication {
 
     public static void main(String[] args) {
